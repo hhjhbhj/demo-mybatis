@@ -1,19 +1,19 @@
 package com.example.demomybaitis.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.util.HashMap;
-import java.util.Map;
+@Controller
 
-@RestController
 public class IndexController {
-  @RequestMapping("/")
+  @RequestMapping("/index")
+  @ResponseBody
   public ModelAndView index(){
-    Map map = new HashMap();
 
-    return new ModelAndView("index","test","testvalue");
+    return new ModelAndView("index");
   }
+
 
 }
