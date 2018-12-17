@@ -44,15 +44,15 @@
       <li id="menu_resource" class="treeview">
         <a href="#">
           <i class="fa fa-laptop"></i>
-          <span><fmt:message key="data.horizon.resource"/></span>
+          <span>测试1</span>
           <i class="fa fa-angle-left pull-right"></i>
         </a>
         <ul class="treeview-menu">
           <%--<li id="menu_resource_db_general"><a href="<%= path %>/resource/db_general.html"><i
               class="fa fa-angle-double-right"></i><fmt:message key="data.horizon.resource.db"/></a>
           </li>--%>
-            <li id="menu_resource_db_general"><a href="<%= path %>/UI/buttons.jsp"><i
-                class="fa fa-angle-double-right"></i><fmt:message key="data.horizon.resource.db"/></a>
+            <li id="menu_resource_db_general"><a href="<%= path %>/UI/buttons.html"><i
+                class="fa fa-angle-double-right"></i>测试</a>
             </li>
         </ul>
       </li>
